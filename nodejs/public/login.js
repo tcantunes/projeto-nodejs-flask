@@ -12,12 +12,13 @@ document
         body: JSON.stringify({ email, password }),
       });
 
-      if (!response.ok) {
+      if (response.ok) {
+        const data = await response.json();
+        console.log("Seu login foi realizado com sucesso!", data);
+        window.location.href = "http://127.0.0.1:5000";
+      } else {
         throw new Error("Falha na requisição");
       }
-      const data = await response.json();
-      console.log("Seu login foi realizado com sucesso!");
-      window.location.href = "http://127.0.0.1:5000";
     } catch (error) {
       console.error("Erro ao fazer a requisição:", error);
     }
