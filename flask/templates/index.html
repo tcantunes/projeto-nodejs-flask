@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Adicionar Funcionário</title>
+    <link rel="stylesheet" href="../static/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Adicionar Funcionário</h1>
+      <form method="POST" action="/">
+        <div class="form-group">
+          <label for="primeiro_nome">Primeiro Nome:</label>
+          <input type="text" id="primeiro_nome" name="primeiro_nome" required />
+        </div>
+
+        <div class="form-group">
+          <label for="sobrenome">Sobrenome:</label>
+          <input type="text" id="sobrenome" name="sobrenome" required />
+        </div>
+
+        <div class="form-group">
+          <label for="data_admissao">Data de Admissão:</label>
+          <input type="date" id="data_admissao" name="data_admissao" required />
+        </div>
+
+        <div class="form-group">
+          <label for="status_funcionario">Status do Funcionário:</label>
+          <input
+            type="checkbox"
+            id="status_funcionario"
+            name="status_funcionario"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="id_setor">ID do Setor:</label>
+          <input type="text" id="id_setor" name="id_setor" required />
+        </div>
+
+        <div class="form-group">
+          <input type="submit" value="Adicionar Funcionário" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
