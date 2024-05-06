@@ -57,11 +57,9 @@ npm run dev
 
 Pronto, o node.js e o flask estão conectados. 
 
-Abra no seu browser de preferência o login.html do nosso projeto node.js e faça login com um dos nossos usuários cadastrados:
+Adicione algum usuário ao projeto, para isso pode usar o postman ou insomnia.
 
-```
-email: 1234@gmail.com
-senha: 12345
-```
+Abra no seu browser de preferência o login.html do nosso projeto node.js e teste o usuário que criou, caso o banco ache o usuário você será encaminhado para a aplicação flask.
+
 
 
