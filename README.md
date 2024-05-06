@@ -30,5 +30,22 @@ pip install Flask-SQLAlchemy
 pip install mysqlclient
 ```
 
+### Node.js
+
+Após colocar o flask para rodar, rodaremos o projeto node.js:
+
+Para instalar todas as nossas bibliotecas, rode o comando:
+
+```
+npm install
+```
+Pronto, o node.js e o flask estão conectados. 
+
+Abra no seu browser de preferência o login.html do nosso projeto node.js e faça login com um dos nossos usuários cadastrados:
+
+```
+email: 1234@gmail.com
+senha: 12345
+```
 
 
