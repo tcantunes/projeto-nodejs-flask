@@ -32,7 +32,7 @@ pip install mysqlclient
 
 ### Node.js
 
-Após colocar o flask para rodar, rodaremos o projeto node.js:
+Após colocar o flask para rodar, entraremos na pasta nodejs e rodaremos o projeto node.js:
 
 Para instalar todas as nossas bibliotecas, rode o comando:
 
