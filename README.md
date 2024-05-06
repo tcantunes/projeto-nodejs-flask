@@ -39,6 +39,13 @@ Para instalar todas as nossas bibliotecas, rode o comando:
 ```
 npm install
 ```
+
+Após instalar nossas libs, rode o projeto:
+
+```
+npm run dev
+```
+
 Pronto, o node.js e o flask estão conectados. 
 
 Abra no seu browser de preferência o login.html do nosso projeto node.js e faça login com um dos nossos usuários cadastrados:
