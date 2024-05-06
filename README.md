@@ -2,6 +2,15 @@
 
 https://github.com/tcantunes/projeto-nodejs-flask/assets/103459242/ceac304b-c22e-45dc-9239-bf5636189456
 
+## Iniciando o projeto
+
+Crie um arquivo `.env` dentro da pasta nodejs, temos nossas variáveis de ambiente lá. O banco de dados que usamos é o mongodb, entâo inclua na variavel:
+
+```
+DB_HOST= seu host do mongodb
+DB_PASSWORD= sua senha do seu banco mongodb
+```
+
 ## Rodando o projeto
 
 ### Flask
